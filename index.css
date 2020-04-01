@@ -1,0 +1,57 @@
+#logo{
+    margin: 0px auto 2em;
+    height:10em;
+    overflow:hidden;
+}
+
+#navbar{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+    margin: 2em auto;
+}
+
+#title{
+    font-family: "verdana", Helvetica, sans-serif;
+    text-align:left;
+    margin: 2em 2% ;   
+}
+
+#content{
+    font-family: "Times New Roman", Helvetica, sans-serif;
+    text-align:justify;
+    line-height: 150%;
+    margin: 1em 20% 2em 3em ;
+    float: left;
+    vertical-align: super;
+}
+
+#content p{
+    text-indent: 2em;
+}
+
+
+#content:first-letter{
+    font-size:5em;
+    font-weight: bold;   
+}
+
+#content img{
+    padding:0px 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar{
+    position: absolute;
+    top: 50vmax;
+    right: 2em;
+    width: 200px;
+    height: 400px;
+    border: 3px solid #73AD21;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+}
+
+.author{
+    margin: 1em 20% 2em 3em ;
+}
