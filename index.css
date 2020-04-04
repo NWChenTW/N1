@@ -1,5 +1,6 @@
 #logo{
-    margin: 0px auto 2em;
+    position: relative;
+    margin: 0.5em 10em 1em 10em;
     height:10em;
     overflow:hidden;
 }
@@ -8,6 +9,9 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align:center;
     margin: 2em auto;
+}
+#navbar a{
+    margin: 2em;
 }
 
 #title{
@@ -25,7 +29,7 @@
     vertical-align: super;
 }
 
-#content p{
+#content p{ 
     text-indent: 2em;
 }
 
@@ -41,16 +45,28 @@
     margin-right: auto;
 }
 
-#sidebar{
+.sidebar{
     position: absolute;
-    top: 12em;
+    top: 18em;
     padding-left: 1em;
     right: 2em;
-    width: 250px;
+    width: 400px;
     height: 700px;
-    border-left: 3px solid #73AD21;
+    border-left: 3px solid #000000;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align:center;
+}
+
+.post-img{
+    display: inline-block;
+}
+
+.post-img img{
+    max-height: 75px;
+}
+
+.post-title{
+    display: inline-block;
 }
 
 .author{
@@ -75,10 +91,15 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     line-height: 200%;
 }
+
 .footer img{
     display:flex;
     margin:4em auto;
     height:5em;
     width: 20em;
     overflow:hidden;
+}
+
+.footer a{
+    margin:1em 0.5em;
 }
