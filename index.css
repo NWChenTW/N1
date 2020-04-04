@@ -10,6 +10,7 @@
     text-align:center;
     margin: 2em auto;
 }
+
 #navbar a{
     margin: 2em;
 }
@@ -17,20 +18,25 @@
 #title{
     font-family: "verdana", Helvetica, sans-serif;
     text-align:left;
-    margin: 2em 20% 2em 2em ;   
+    margin: 2em 30% 2em 5% ;   
 }
 
 #content{
-    font-family: "Times New Roman", Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     text-align:justify;
     line-height: 150%;
-    margin: 1em 20% 2em 3em ;
+    margin: 1em 30% 2em 5% ;
     float: left;
     vertical-align: super;
+    /*
+    border: 1px solid #000000;
+    */
 }
 
 #content p{ 
     text-indent: 2em;
+    font-size: large;
+    line-height: 200%;
 }
 
 
@@ -41,16 +47,16 @@
 
 #content img{
     padding:0px 1em;
-    margin-left: auto;
+    margin-left: 2em;
     margin-right: auto;
 }
 
 .sidebar{
     position: absolute;
     top: 18em;
-    padding-left: 1em;
-    right: 2em;
-    width: 400px;
+    padding-left: 2em;
+    right: 1em;
+    width: 410px;
     height: 700px;
     border-left: 3px solid #000000;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -59,30 +65,40 @@
 
 .post-img{
     display: inline-block;
+    padding:1em 1em 1em 0px;
+    vertical-align: middle;
 }
 
 .post-img img{
-    max-height: 75px;
+    max-width:8em;
 }
 
 .post-title{
+    vertical-align: middle;
+    margin-top: 1em;
+    padding:1em 1em 1em 1em;
     display: inline-block;
+    width: 14em;
+    text-align: left;
+    line-height: 150%;
+    border-left: 2px solid #000000;
 }
 
 .author{
+    display: block;
     font-family: "verdana", Helvetica, sans-serif;
-    margin: 1em 20% 2em 3em ;
+    margin:10em 40% 2em 5em ;
 }
+
 .author-img{
     height:1.5em;
     width: 1.5em;
 }
 
-
 .comments{
     font-family: "verdana", Helvetica, sans-serif;
     text-align:left;
-    margin: 1em 20% 2em 3em ;
+    margin: 5em 40% 2em 5em ;
 }
 
 .footer{
