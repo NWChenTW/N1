@@ -12,8 +12,51 @@
 }
 
 #navbar a{
-    margin: 2em;
+    background-color: rgb(255, 249, 197);
+    margin:0 em;
+    padding: 0.5em 3em;
+    position:relative;
+    display:inline-block;
+    color:#000000;
+    text-decoration: none;
+    border-radius: 15px;
 }
+
+
+#navbar a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline overline;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    border-radius: 15px;
+}
+
+ul li ul{
+    position:absolute;
+    display:none;    
+}
+
+ul li:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+ul li:hover > ul{
+    display:block;
+}
+
+ul li ul li {
+    display:block;
+} 
 
 #title{
     font-family: "verdana", Helvetica, sans-serif;
