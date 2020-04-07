@@ -1,0 +1,169 @@
+#logo{
+    position: relative;
+    margin: 0.5em 10em 1em 10em;
+    height:10em;
+    overflow:hidden;
+}
+
+#navbar{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+    margin: 2em auto;
+}
+
+#navbar a{
+    background-color: rgb(255, 249, 197);
+    margin:0 em;
+    padding: 0.5em 3em;
+    position:relative;
+    display:inline-block;
+    color:#000000;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+
+#navbar a:hover{
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: underline overline;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    border-radius: 15px;
+}
+
+ul li ul{
+    position:absolute;
+    visibility: hidden;  
+    opacity:0;  
+ 
+}
+
+ul li:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+ul li:hover > ul{
+    display:block;
+    visibility: visible;   
+    opacity: 1;  
+    transition: all 1s; 
+}
+
+ul li ul li {
+    display:block;
+} 
+
+#title{
+    font-family: "verdana", Helvetica, sans-serif;
+    text-align:left;
+    margin: 2em 30% 2em 5% ;   
+}
+
+#content{
+    font-family: Helvetica, sans-serif;
+    text-align:justify;
+    line-height: 150%;
+    margin: 1em 30% 2em 5% ;
+    float: left;
+    vertical-align: super;
+    /*
+    border: 1px solid #000000;
+    */
+}
+
+#content p{ 
+    text-indent: 2em;
+    font-size: large;
+    line-height: 200%;
+}
+
+
+#content:first-letter{
+    font-size:5em;
+    font-weight: bold;   
+}
+
+#content img{
+    padding:0px 1em;
+    margin-left: 2em;
+    margin-right: auto;
+}
+
+.sidebar{
+    position: absolute;
+    top: 18em;
+    padding-left: 2em;
+    right: 1em;
+    width: 410px;
+    height: 700px;
+    border-left: 3px solid #000000;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align:center;
+}
+
+.post-img{
+    display: inline-block;
+    padding:1em 1em 1em 0px;
+    vertical-align: middle;
+}
+
+.post-img img{
+    max-width:8em;
+}
+
+.post-title{
+    vertical-align: middle;
+    margin-top: 1em;
+    padding:1em 1em 1em 1em;
+    display: inline-block;
+    width: 14em;
+    text-align: left;
+    line-height: 150%;
+    border-left: 2px solid #000000;
+}
+
+.author{
+    display: block;
+    font-family: "verdana", Helvetica, sans-serif;
+    margin:10em 40% 2em 5em ;
+}
+
+.author-img{
+    height:1.5em;
+    width: 1.5em;
+}
+
+.comments{
+    font-family: "verdana", Helvetica, sans-serif;
+    text-align:left;
+    margin: 5em 40% 2em 5em ;
+}
+
+.footer{
+    text-align:center;
+    padding: 2em auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    line-height: 200%;
+}
+
+.footer img{
+    display:flex;
+    margin:4em auto;
+    height:5em;
+    width: 20em;
+    overflow:hidden;
+}
+
+.footer a{
+    margin:1em 0.5em;
+}
