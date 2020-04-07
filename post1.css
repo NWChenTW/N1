@@ -1,14 +1,21 @@
 #logo{
-    position: relative;
-    margin: 0.5em 10em 1em 10em;
+    z-index: 10;
+    position: sticky;
+    top:0;
+    padding: 0.5em 10em 0px 10em;
     height:10em;
     overflow:hidden;
+    background-color: white;
 }
 
 #navbar{
+    z-index: 10;
+    background-color: white;
+    position: sticky;
+    top: 10.5em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align:center;
-    margin: 2em auto;
+    padding: 2em 2em;
 }
 
 #navbar a{
@@ -41,10 +48,11 @@ ul li{
 }
 
 ul li ul{
+    z-index: 15;
+    display: block;
     position:absolute;
-    visibility: hidden;  
+    float: none;
     opacity:0;  
- 
 }
 
 ul li:hover{
@@ -52,11 +60,9 @@ ul li:hover{
     color: #ffffff;
 }
 
-ul li:hover > ul{
-    display:block;
-    visibility: visible;   
+ul li:hover ul{
     opacity: 1;  
-    transition: all 1s; 
+    transition:all 1s; 
 }
 
 ul li ul li {
