@@ -1,6 +1,5 @@
 #logo{
     z-index: 10;
-    position: sticky;
     top:0;
     padding: 0.5em 10em 0px 10em;
     height:10em;
@@ -12,10 +11,10 @@
     z-index: 10;
     background-color: white;
     position: sticky;
-    top: 10.5em;
+    top: 0em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align:center;
-    padding: 2em 2em;
+    padding: 1em 1em;
 }
 
 #navbar a{
@@ -71,85 +70,17 @@ ul li ul li {
     display:block;
 } 
 
-#title{
-    font-family: "verdana", Helvetica, sans-serif;
-    text-align:left;
-    margin: 2em 30% 2em 5% ;   
+#gallery_frame{
+    margin: 1em 80% 2em 5em ;
+    width: 20%;
 }
 
-#content{
-    font-family: Helvetica, sans-serif;
-    text-align:justify;
-    line-height: 150%;
-    margin: 1em 30% 2em 5% ;
-    float: left;
-    vertical-align: super;
-    /*
-    border: 1px solid #000000;
-    */
+#left{
+    margin: 1em 50% 2em 5em ;
+    width: 20%;
+    overflow: hidden;
 }
 
-#content p{ 
-    text-indent: 2em;
-    font-size: large;
-    line-height: 200%;
-}
-
-
-#content:first-letter{
-    font-size:5em;
-    font-weight: bold;   
-}
-
-#content img{
-    padding:0px 1em;
-    margin-left: 2em;
-    margin-right: auto;
-}
-
-.sidebar{
-    position: absolute;
-    top: 18em;
-    padding-left: 2em;
-    right: 1em;
-    width: 410px;
-    height: 700px;
-    border-left: 3px solid #000000;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    text-align:center;
-}
-
-.post-img{
-    display: inline-block;
-    padding:1em 1em 1em 0px;
-    vertical-align: middle;
-}
-
-.post-img img{
-    max-width:8em;
-}
-
-.post-title{
-    vertical-align: middle;
-    margin-top: 1em;
-    padding:1em 1em 1em 1em;
-    display: inline-block;
-    width: 14em;
-    text-align: left;
-    line-height: 150%;
-    border-left: 2px solid #000000;
-}
-
-.author{
-    display: block;
-    font-family: "verdana", Helvetica, sans-serif;
-    margin:10em 40% 2em 5em ;
-}
-
-.author-img{
-    height:1.5em;
-    width: 1.5em;
-}
 
 .comments{
     font-family: "verdana", Helvetica, sans-serif;
