@@ -71,14 +71,40 @@ ul li ul li {
 } 
 
 #gallery_frame{
-    margin: 1em 80% 2em 5em ;
-    width: 20%;
+    margin: 1em 8% ;
+    height: 800px;
+    position: relative;
+    background-color: grey;
+    padding:0px auto;
+}
+
+#gallery_frame img{
+    vertical-align: middle;
 }
 
 #left{
-    margin: 1em 50% 2em 5em ;
-    width: 20%;
+    float: left;
+    width: 720px;
+    height: 780px;
     overflow: hidden;
+    border: 10px solid #ffffff;
+}
+
+.bottom_line{    
+    float: right;
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+    border: 10px solid #ffffff;
+    vertical-align: baseline;
+}
+
+#top{
+    float: right;
+    border: 10px solid #ffffff;
+    vertical-align: top;
+    width: 1080px;
+    height: 650px;
 }
 
 
