@@ -1,0 +1,26 @@
+.sidebar{
+    background: #00f;
+    cursor: pointer;
+    outline: 0;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.dropdown .menu-switch{
+    display: none;
+    overflow: hidden;
+}
+
+.dropdown .menu-body {
+    background: #0f0;
+    transform: translate(0, -100%);
+    opacity: 0;
+    transition: all .4s ease;
+    width: 300px;
+  }
+  
+  .dropdown .menu-switch:checked ~ .menu-body {
+    background: #f00;
+    transform: translate(0, 0);
+    opacity: 1;
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Frame</title>
+    <link rel = "stylesheet" 
+        type = "text/css"
+        href = "normalize.css" />
+    <link rel = "stylesheet" 
+        type = "text/css"
+        href = "./checkbox.css" />
+
+</head>
+<body>
+
+<label class="dropdown">
+    <input type="checkbox" id="menu-switch" class="sidebar">
+
+    <div>
+        <h3>click me</h3>
+    </div>
+    <ul class="menu-body">
+        <li>
+            <label for="menu-switch" onclick="console.log('click');">Item one</label>
+        </li>
+        <li>
+            <label for="menu-switch">Item two</label>
+        </li>
+    </ul>
+</label>
