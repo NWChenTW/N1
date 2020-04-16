@@ -1,6 +1,6 @@
-.sidebar{
+.menu-switch{
     background: #00f;
-    cursor: pointer;
+
     outline: 0;
     user-select: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -19,8 +19,28 @@
     width: 300px;
   }
   
-  .dropdown .menu-switch:checked ~ .menu-body {
+.dropdown .menu-switch:checked ~ .menu-body {
     background: #f00;
     transform: translate(0, 0);
     opacity: 1;
   }
+
+
+input[type=checkbox]{
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+}
+
+input[type=checkbox] + span {
+    display: inline-block;
+    background-color: #aaa;
+    border: 1px solid gray;
+    color: #444;
+    user-select: none; /* 防止文字被滑鼠選取反白 */
+}
+
+input[type=checkbox]:checked+span {
+    color: yellow;
+    background-color: #444;
+}
