@@ -73,7 +73,7 @@
 #grid_container{
     display: grid;
     justify-content: center; 
-    grid-template-columns: 150px 200px 200px 200px 200px;
+    grid-template-columns: 250px 200px 200px 200px 200px;
     grid-template-rows: 600px 50px 150px;
     margin:2em 7%;
     justify-items: center;
@@ -110,14 +110,6 @@
     padding: 2px;
 }
 
-#sidebar{
-    background-color: grey;
-    grid-column: 1 ;
-    grid-row: 1 / 4;
-    border-right: 5px solid black;
-    text-align: center;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;   
-}
 
 #sidebar a{
     background-color: rgb(255, 249, 197);

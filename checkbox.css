@@ -1,62 +1,76 @@
 .menu-switch{
     background: #00f;
-
     outline: 0;
     user-select: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.dropdown .menu-switch{
-    display: none;
-    overflow: hidden;
+.sidebar{
+    width: 200px;
+    margin: 2em 0em;
+    background-color: grey;
+    grid-column: 1 ;
+    grid-row: 1 / 4;
+    border-right: 5px solid black;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;   
+}
+
+.dropdown {
+    display:block;
+    width:180px;
+    background-color: rgb(255, 249, 197);
+    margin:2 em;
+    padding: 10px;
+    color:#000000;
+    user-select: none; /* 防止文字被滑鼠選取反白 */
 }
 
 .dropdown .menu-body {
-    display:none;
+    height: 0px;
+    overflow: hidden;
     list-style-type: none;
     transform: translate(0, -100%);
-    opacity: 0;
-    width: 300px;
+    width: 150px;
+    margin: 5px;
+    padding: 0em;
   }
   
-.dropdown .menu-switch:checked ~ .menu-body {
+.dropdown .menu-switch:checked + .menu-body {
+    height: auto;
     transform: translate(0, 0);
-    opacity: 1;
     display: list-item;
-    transition: all 0.5s;
+    transition: all 1s;
   }
 
 
 input[type=checkbox]{
-    width: 100px;
-    height: 20px;
+    z-index: 99;
+    width:180px;
+    height:30px;
     cursor: pointer;
+    display: block;
+    opacity: 0;
+    float: left;
+    padding:1em;
 }
 
-input[type=checkbox] + span {
-    background-color: rgb(255, 249, 197);
-    display: inline-block;
-    margin:0 em;
-    padding: 0.5em 3em;
-    border: 1px solid gray;
-    color:#000000;
-    border-radius: 15px;
-    user-select: none; /* 防止文字被滑鼠選取反白 */
-}
 
-input[type=checkbox]:checked+span {
+
+input[type=checkbox]:checked {
     color: yellow;
     background-color: #444;
 }
 
-ul li a{
+.dropdown ul li a{
+    text-align: left;
     background-color: rgb(255, 249, 197);
     margin:0 em;
-    padding: 0.5em 3em;
+    width: 150px;
+    padding: 0.5em;
     position:relative;
     display:inline-block;
     color:#000000;
-    border-radius: 15px;
     text-decoration: none;
 }
 
